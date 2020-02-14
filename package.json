@@ -1,0 +1,33 @@
+{
+    "name": "vue-starter-extension-pack",
+    "displayName": "Vue Starter Extension Pack",
+    "description": "The most valuable extensions to start programming in Vue.JS",
+    "version": "1.0.1",
+    "publisher": "rafaelcabrera",
+    "repository": {
+        "url": "https://github.com/codigoneo/Vue-Starter-Extension-Pack"
+    },
+    "keywords": [
+        "vue.js",
+        "vue",
+        "node",
+        "javascript"
+      ],
+    "scripts": {
+        "Build vsix": "vsce package"
+    },
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "icon": "icon.png",
+    "extensionPack": [ 
+        "octref.vetur",
+        "msjsdiag.debugger-for-chrome",
+        "dbaeumer.vscode-eslint",
+        "sdras.vue-vscode-snippets",
+        "dariofuzinato.vue-peek"
+    ]
+}
