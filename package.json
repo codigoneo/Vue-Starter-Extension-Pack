@@ -12,10 +12,7 @@
         "vue",
         "node",
         "javascript"
-      ],
-    "scripts": {
-        "Build vsix": "vsce package"
-    },
+    ],
     "engines": {
         "vscode": "^1.42.0"
     },
