@@ -1,14 +1,19 @@
 {
     "name": "vue-starter-extension-pack",
-    "displayName": "Vue Starter Extension Pack",
-    "description": "The most valuable extensions to start programming in Vue.JS",
-    "version": "1.0.1",
+    "displayName": "Vue2 Starter Extension Pack",
+    "description": "The most valuable extensions to start programming in Vue2.JS",
+    "version": "1.1.2",
     "publisher": "rafaelcabrera",
+    "scripts": {
+        "Generate package": "vsce package --skip-license",
+        "Install vsce": "npm install -g @vscode/vsce"
+    },
     "repository": {
         "url": "https://github.com/codigoneo/Vue-Starter-Extension-Pack"
     },
     "keywords": [
         "vue.js",
+        "vue2",
         "vue",
         "node",
         "javascript"
@@ -20,11 +25,13 @@
         "Extension Packs"
     ],
     "icon": "icon.png",
-    "extensionPack": [ 
+    "extensionDependencies": [ 
         "octref.vetur",
-        "msjsdiag.debugger-for-chrome",
         "dbaeumer.vscode-eslint",
+        "ms-vscode.js-debug",
         "sdras.vue-vscode-snippets",
-        "dariofuzinato.vue-peek"
+        "dariofuzinato.vue-peek",
+        "formulahendry.auto-rename-tag",
+        "durzn.brackethighlighter"
     ]
 }
